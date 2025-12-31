@@ -1,10 +1,4 @@
 {
-  "errorPages": [
-    {
-      "statusCode": 404,
-      "path": "/404.html"
-    }
-  ],
   "cleanUrls": false,
   "trailingSlash": false
 }
