@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Radio Nyra</title>
+    <meta name="description" content="Radio Nyra Photo Gallery - Events, Studio Visits, and Community Gatherings.">
+    <!-- Link to new Neon Theme CSS -->
+    <link rel="icon" href="assets/images/mic-neon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/theme-neon.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                Radio Nyra
+            </a>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="shows.html" class="nav-link">Shows</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btn-primary">
+                <div class="live-dot"></div>
+                Listen Live
+            </a>
+
+            <div class="mobile-menu-btn" style="color: #fff;">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="section text-center"
+        style="padding: 100px 0 40px; background: linear-gradient(180deg, rgba(20,20,20,0) 0%, rgba(188, 19, 254, 0.1) 100%);">
+        <div class="container">
+            <h1 style="font-size: 3rem; text-shadow: var(--glow-purple);">Photo Gallery</h1>
+            <p style="color: var(--text-secondary);">Highlights from our events and studio sessions.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="section">
+        <div class="container">
+            <!-- This container uses the CSS Grid layout defined in theme-white.css -->
+            <div class="gallery-grid">
+
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item">
+                    <!-- Placeholder Image - Replace src with actual image paths -->
+                    <img src="https://placehold.co/600x400/e91e63/white?text=Event+1" alt="Event 1">
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x400/3f51b5/white?text=Studio+Visit" alt="Studio Visit">
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x400/ff9800/white?text=Concert" alt="Concert">
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x400/4caf50/white?text=Community" alt="Community">
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x400/9c27b0/white?text=Live+Show" alt="Live Show">
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x400/2196f3/white?text=Interviews" alt="Interviews">
+                </div>
+
+                <!-- Gallery Item 7 -->
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x400/607d8b/white?text=Celebration" alt="Celebration">
+                </div>
+
+                <!-- Gallery Item 8 -->
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x400/795548/white?text=Awards" alt="Awards">
+                </div>
+
+                <!-- Gallery Item 9 -->
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x400/00bcd4/white?text=Team" alt="Team">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Radio Nyra</h3>
+                    <p>Connecting the community through music and culture.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div style="display: flex; gap: 15px; font-size: 20px;">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Radio Nyra. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Audio Player -->
+    <div class="audio-player-bar">
+        <div class="player-container">
+            <div class="player-info">
+                <div class="player-album-art">
+                    <i class="fas fa-broadcast-tower"></i>
+                </div>
+                <div class="player-track-info">
+                    <h4>Radio Nyra Live</h4>
+                    <p>Playing the best hits...</p>
+                </div>
+            </div>
+            <div class="player-controls">
+                <button class="play-btn" id="playPauseBtn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <div class="volume-control">
+                    <i class="fas fa-volume-up"></i>
+                    <input type="range" min="0" max="100" value="80"
+                        style="width: 80px; accent-color: var(--primary-color);">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
